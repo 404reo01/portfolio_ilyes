@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@layer base {
+  body {
+    @apply bg-[#d6c4aa] text-[#1a1a1a] overflow-hidden; /* Empêche le scroll par défaut pour l'effet map */
+  }
+}
+
+.map-texture {
+  background-image: url('https://www.transparenttextures.com/patterns/parchment.png'); /* Texture légère */
+  background-color: #f2e8cf;
+}
+/* 🌄 Fond parchemin / carte japonaise */
+.bg-map {
+  background: radial-gradient(circle at center, #f4f1ec 0%, #e6dfd3 40%, #d2c9bc 100%);
+  background-image: url("/textures/paper-grain.png");
+  background-size: cover;
+}
+
+/* 🌸 Sakura qui tombent */
+.sakura-layer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/textures/sakura.png");
+  background-repeat: repeat;
+  animation: sakura-fall 35s linear infinite;
+  opacity: 0.5;
+}
+
+@keyframes sakura-fall {
+  0% { background-position: 0 -120%; }
+  100% { background-position: 300px 120%; }
+}
+
+/* 🌫️ Brume lente */
+.fog-layer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/textures/fog.png") repeat-x;
+  animation: fog-move 80s linear infinite;
+  opacity: 0.15;
+}
+
+@keyframes fog-move {
+  from { background-position-x: 0; }
+  to { background-position-x: 3000px; }
+}
+
+/* 🕊️ Animation oiseaux / nuages */
+.animate-float {
+  animation: float 12s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px) translateX(0px); }
+  50% { transform: translateY(-20px) translateX(20px); }
+  100% { transform: translateY(0px) translateX(0px); }
+}
