@@ -1,9 +1,9 @@
-import MapContainer from './components/Map/MapContainer';
+import ScrollContainer from './components/Scroll/ScrollContainer';
 
 function App() {
   return (
     <div className="App">
-      <MapContainer />
+      <ScrollContainer />
     </div>
   );
 }

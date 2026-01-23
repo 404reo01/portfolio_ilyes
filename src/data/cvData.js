@@ -6,7 +6,7 @@ export const cvData = {
     contact: {
       email: "ilyes.medjd@gmail.com",
       github: "https://github.com/IlyesMDj",
-      linkedin: "https://www.linkedin.com/in/ilyés-medjdoub"
+      linkedin: "https://www.linkedin.com/in/ilyés-medjdoub-5854352b0/"
     },
     intro: "Développeur polyvalent maîtrisant Python, Java et Flutter, avec une expertise en automatisation et conception logicielle."
   },
@@ -37,8 +37,8 @@ export const cvData = {
     }
   ],
   skills: {
-    languages: ["Python", "Java", "C", "PHP", "JavaScript"],
-    tools: ["Docker", "Jenkins", "Flutter", "PostgreSQL", "Tailwind CSS"]
+    languages: ["Python", "Java", "C", "PHP", "JavaScript", "Flutter", "Dart"],
+    tools: ["Docker", "Jenkins", "PostgreSQL", "Tailwind CSS"]
   },
   interests: ["Jujitsu", "Handball", "Dessin", "Musculation"]
 };
