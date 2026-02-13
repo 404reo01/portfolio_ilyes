@@ -336,19 +336,19 @@ const ParcoursSection = () => {
   const education = [
     {
       degree: "BUT Informatique 3ᵉ année",
-      school: "IUT de Paris - Rives de Seine",
+      school: "IUT de Villetaneuse - Sorbonne Paris Nord",
       period: "2023 - 2025",
       description: "Spécialisation développement web et logiciel"
     },
     {
       degree: "BTS Services Informatiques aux Organisations",
-      school: "Lycée Dorian",
+      school: "Lycée Louise Michel",
       period: "2021 - 2023",
-      description: "Formation complète en développement et gestion de projets IT"
+      description: "solutions logicielles et applications métiers"
     },
     {
       degree: "Baccalauréat Sciences et Technologies du Management et de la Gestion",
-      school: "Lycée Dorian",
+      school: "Lycée Alfred Nobel",
       period: "2020 - 2021",
       description: "Option Management des organisations"
     }
