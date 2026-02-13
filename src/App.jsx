@@ -1,4 +1,4 @@
-import ScrollContainer from './components/Scroll/ScrollContainer';
+import ScrollContainer from './Components/Scroll/ScrollContainer';
 
 function App() {
   return (
